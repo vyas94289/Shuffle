@@ -63,7 +63,7 @@ open class SwipeCardStack: UIView, SwipeCardDelegate, UIGestureRecognizerDelegat
     return visibleCards.first?.index
   }
 
-  var numberOfVisibleCards: Int = 2
+  var numberOfVisibleCards: Int = 1
 
   /// An ordered array containing all pairs of currently visible cards.
   ///
